@@ -1,0 +1,164 @@
+@media (max-width: 600px) {
+  main {
+    justify-content: flex-start !important;
+    padding-top: 20px !important;
+    padding-bottom: 120px !important;
+    min-height: auto !important;
+  }
+
+  .discovery-main-title {
+    position: static !important;
+    margin: 0 16px 12px !important;
+    text-align: left;
+  }
+
+  .discovery-search-box {
+    position: relative !important;
+    margin: 0 16px 12px !important;
+    left: 0 !important;
+    top: 0 !important;
+    transform: none !important;
+    width: auto !important;
+  }
+
+  .discovery-pin,
+  .discovery-map {
+    position: static !important;
+    display: block !important;
+    margin: 10px auto !important;
+    left: auto !important;
+    top: auto !important;
+    right: auto !important;
+    transform: none !important;
+    width: 90% !important;
+    max-width: 420px !important;
+  }
+
+  .footer {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 999;
+  }
+
+  header,
+  nav,
+  .menu,
+  .burger {
+    z-index: 10000 !important;
+  }
+
+  .generate-row {
+    flex-direction: column !important;
+    align-items: stretch !important;
+    gap: 12px !important;
+    margin: 12px !important;
+  }
+
+  .left-col {
+    width: 100% !important;
+    margin-left: 0 !important;
+    padding: 0 16px !important;
+  }
+
+  .image-space {
+    order: 2 !important;
+    width: calc(100% - 32px) !important;
+    max-width: 420px !important;
+    margin: 6px auto !important;
+    min-width: auto !important;
+    min-height: auto !important;
+    height: auto !important;
+    padding: 12px !important;
+    background: rgba(255, 255, 255, 0.03) !important;
+  }
+
+  .image-space img {
+    max-width: 100% !important;
+    height: auto !important;
+  }
+
+  body.placement-bg,
+  body.budget-bg {
+    background-position: top center !important;
+    background-size: cover !important;
+  }
+
+  main {
+    justify-content: flex-start !important;
+    padding-top: 18px !important;
+    padding-bottom: 110px !important;
+    min-height: auto !important;
+  }
+
+  body.price-bg .price-hero {
+    padding-top: 100px !important;
+    padding-bottom: 12px !important;
+  }
+}
+
+@media (max-width: 800px) {
+  .burger .line {
+    background-color: #fff !important;
+  }
+
+  nav.active .menu {
+    display: block !important;
+    position: fixed !important;
+    top: 64px !important;
+    left: 0 !important;
+    width: 100% !important;
+    background-color: rgba(0, 0, 0, 0.98) !important;
+    z-index: 10001 !important;
+    padding: 12px 0 !important;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.4) !important;
+  }
+
+  nav.active .menu a {
+    color: #fff !important;
+    font-size: 20px !important;
+    padding: 12px 20px !important;
+    display: block !important;
+  }
+
+  header {
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    width: 100% !important;
+    z-index: 200000 !important;
+    background-color: rgba(0, 0, 0, 0.98) !important;
+  }
+
+  body {
+    padding-top: 96px !important;
+  }
+
+  body.price-bg .price-hero {
+    padding-top: 120px !important;
+  }
+
+  .burger {
+    z-index: 200001 !important;
+    pointer-events: auto !important;
+  }
+
+  body.discovery-bg nav.active .menu {
+    left: auto !important;
+    right: 0 !important;
+    width: auto !important;
+    min-width: 220px !important;
+    max-width: 85% !important;
+    border-radius: 8px !important;
+    padding: 12px !important;
+  }
+
+  body.price-bg nav.active .menu {
+    z-index: 200002 !important;
+    left: 0 !important;
+    right: 0 !important;
+    width: 100% !important;
+  }
+}
